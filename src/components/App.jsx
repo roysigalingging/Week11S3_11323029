@@ -61,7 +61,7 @@ function App() {
         <ul>
           {data.map((item, index) => (
             <li key={index}>
-              Nama: {item.name}, Umur: {item.age}
+              Nama: {item.name}, Age: {item.age}
             </li>
           ))}
         </ul>
